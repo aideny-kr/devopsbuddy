@@ -1,24 +1,16 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
+.mtj.tmp/
 
-### IntelliJ IDEA ###
+# Package Files #
+*.jar
+*.war
+*.ear
+
+hs_err_pid*
+
+target
 .idea
-*.iws
-*.iml
-*.ipr
+devopsbuddy.iml
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+
